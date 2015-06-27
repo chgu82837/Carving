@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="base">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgBAAAAAAAAAACAEIAAAABgAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="border">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIQBAgEAAAACgAQAAAAgAAAQ=</HashCode>
+      <FileName>border.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="character">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <InheritanceLine Type="spot" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.812" Y="5.524" />
+        <Point X="4.812" Y="6" />
+        <Point X="5.75" Y="6" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.479" Y="0.05" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <AssociationLine Name="left" Type="hand">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.302" Y="0.024" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="right" Type="hand">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.17" Y="0.024" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAKEoIAIAABEQKUAAIAiAGAoAAYEAACQSABAQAEoCw=</HashCode>
+      <FileName>character.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="left" />
+      <Field Name="right" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="chunk">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABBIABAAIAIAAQAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>chunk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hand">
+    <Position X="8" Y="1" Width="1.5" />
+    <InheritanceLine Type="base" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="0.75" />
+        <Point X="3" Y="0.375" />
+        <Point X="8.75" Y="0.375" />
+        <Point X="8.75" Y="1" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.038" Y="0.431" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <AssociationLine Name="elbow" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.726" Y="4.481" />
+        <Point X="8.726" Y="8.5" />
+        <Point X="10" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.637" Y="0.036" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="planet_d" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.068" Y="4.481" />
+        <Point X="9.068" Y="7.875" />
+        <Point X="10" Y="7.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="planet_r" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.337" Y="4.481" />
+        <Point X="8.337" Y="9" />
+        <Point X="10" Y="9" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.901" Y="0.024" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sate_d" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.233" Y="4.481" />
+        <Point X="9.233" Y="7.562" />
+        <Point X="10" Y="7.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.012" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sate_r" Type="looper">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.829" Y="0.036" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="shoulder" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.137" Y="4.481" />
+        <Point X="8.137" Y="9.5" />
+        <Point X="10" Y="9.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.032" Y="0.048" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sun_r" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.398" Y="4.481" />
+        <Point X="9.398" Y="7.25" />
+        <Point X="10" Y="7.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.086" Y="0.036" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="thumb" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.897" Y="4.481" />
+        <Point X="8.897" Y="8.188" />
+        <Point X="10" Y="8.188" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.457" Y="0.048" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="wrist" Type="looper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.237" Y="4.481" />
+        <Point X="8.237" Y="9.25" />
+        <Point X="10" Y="9.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.188" Y="0.012" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAIAMgAIIAAICAACQAAAIABAAQACQIAAA=</HashCode>
+      <FileName>hand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="elbow" />
+      <Field Name="planet_d" />
+      <Field Name="planet_r" />
+      <Field Name="sate_d" />
+      <Field Name="sate_r" />
+      <Field Name="shoulder" />
+      <Field Name="sun_r" />
+      <Field Name="thumb" />
+      <Field Name="wrist" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="hurtable">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="wall" FixedFromPoint="true">
+      <Path>
+        <Point X="11.25" Y="0.875" />
+        <Point X="12.25" Y="0.875" />
+        <Point X="12.25" Y="1.25" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.01" Y="0.216" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABAAEAAAAAAgAACAAAAAAAAEAABAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>hurtable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="looper">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAEAAAAEAAAEAAAAEgBAAAAAAIAAAAACBIAAAA=</HashCode>
+      <FileName>looper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="spot">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <InheritanceLine Type="base" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.375" Y="3.547" />
+        <Point X="3.375" Y="4.188" />
+        <Point X="4" Y="4.188" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.144" Y="0.062" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACAAAAAAAAAAAABQAAVABAAIAYAFggYAIAAA=</HashCode>
+      <FileName>spot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="surface">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="base" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.062" Y="3.547" />
+        <Point X="3.062" Y="4.024" />
+        <Point X="3.062" Y="4.024" />
+        <Point X="3.062" Y="4.5" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.05" Y="0.719" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAABAAAAAAYAAQAAAAAAAAAAAACIAAECAAA=</HashCode>
+      <FileName>surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="triangle">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="spot" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.625" Y="5.524" />
+        <Point X="4.625" Y="6.25" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.014" Y="0.036" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAAgIAAQAAAAAAAAAACAwAACAEQAA=</HashCode>
+      <FileName>triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wall">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="spot">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.108" Y="0.026" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <AssociationLine Name="b0" Type="border" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="3.611" />
+        <Point X="10.25" Y="5.5" />
+        <Point X="11.75" Y="5.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.054" Y="0.038" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="b1" Type="border" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="3.611" />
+        <Point X="10.5" Y="4.961" />
+        <Point X="11.75" Y="4.961" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.803" Y="0.038" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="b2" Type="border" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="3.611" />
+        <Point X="10" Y="6.125" />
+        <Point X="11.75" Y="6.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.318" Y="0.062" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="b3" Type="border" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="3.611" />
+        <Point X="10.75" Y="4.449" />
+        <Point X="11.75" Y="4.449" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.551" Y="0.026" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAAACAAQBAAAIABAAlAAgAIQQ=</HashCode>
+      <FileName>wall.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="b0" />
+      <Field Name="b1" />
+      <Field Name="b2" />
+      <Field Name="b3" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="world">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="chunks" Type="chunk" FixedFromPoint="true">
+      <Path>
+        <Point X="0.875" Y="5.699" />
+        <Point X="0.875" Y="6.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.717" Y="0.347" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="earch" Type="surface" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="4.125" />
+        <Point X="2.688" Y="4.125" />
+        <Point X="2.688" Y="4.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.012" Y="0.409" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAgFEAAAABAAQIKAJIAAAACAEADAAoAAJAIAAACAIA=</HashCode>
+      <FileName>world.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="chunks" />
+      <Field Name="earch" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>

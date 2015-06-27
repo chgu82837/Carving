@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Carving", "Carving\Carving.vcxproj", "{ACD3BC94-59B0-406D-8ED7-BD2A9F8CEDC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD3BC94-59B0-406D-8ED7-BD2A9F8CEDC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD3BC94-59B0-406D-8ED7-BD2A9F8CEDC5}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD3BC94-59B0-406D-8ED7-BD2A9F8CEDC5}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD3BC94-59B0-406D-8ED7-BD2A9F8CEDC5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
